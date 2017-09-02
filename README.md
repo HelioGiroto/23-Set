@@ -1,5 +1,5 @@
 # 23-set
-## Programa que demonstra que NÃO teremos mais um alinhamento similar ao de 23/Setembro/2017 no céu! ##
+### Programa que demonstra que NÃO teremos mais um alinhamento similar ao de 23/Setembro/2017 no céu! ###
 
 Para baixar toda essa pasta: https://github.com/HelioGiroto/23-set/archive/master.zip
 
