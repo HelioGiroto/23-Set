@@ -22,6 +22,6 @@ RESULTADOS (caso use Windows ou Mac, aqui há uma cópia dos arquivos processado
 
 VIDEO SOBRE ESSE PROGRAMA - Ver no meu canal em: https://www.youtube.com/c/heliogiroto
 
-Programas sob a licensa de direitos autorais (MIT):
+Programas sob a licença de direitos autorais (MIT):
 
 <a href="https://github.com/HelioGiroto/23-set/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="Licença"></a> 
