@@ -1,4 +1,4 @@
-import ephem		# Instalar este módulo com PIP - Ver: https://pypi.python.org/pypi/pyephem/
+import ephem		# Instalar este módulo com PIP - Ver: https://pypi.python.org/pypi/ephem/
 import time
 # Para entender melhor, vá para a última linha deste código e siga à primeira função que é chamada ali...
 
