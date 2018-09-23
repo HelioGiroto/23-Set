@@ -52,3 +52,5 @@ NameError: name 'today' is not defined
 >>> print(ephem.next_last_quarter_moon('2018/9/15'))
 2018/10/2 09:45:24
 >>> 
+
+# http://www.clearskyinstitute.com/xephem/
