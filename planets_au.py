@@ -29,6 +29,6 @@ for rep in range(int(anos)):
 
 print('HOJE, Vênus está em:', ephem.constellation(ephem.Venus(ephem.now())), 'à', ephem.Venus(ephem.now()).earth_distance, 'UA da Terra.') 
 print()
-# $ cat Venus.csv | sort -t';' -k3 | head -n50 | cat -n		# Para ver lista das 50 maiores aproximações de Vênus da Terra.
+# $ cat venus.csv | sort -t';' -k3 | head -n50 | cat -n		# Para ver lista das 50 maiores aproximações de Vênus da Terra.
 
 # Autor: Helio Giroto
