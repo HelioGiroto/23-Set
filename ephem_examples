@@ -1,0 +1,48 @@
+# FONTE: http://rhodesmill.org/pyephem/quick
+# Ver tb: http://www.astropical.space/astrodb/api-ephem.php?lat=35&lon=139#
+
+h@lenovo:~$ python3
+Python 3.5.2 (default, Nov 23 2017, 16:37:01) 
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import ephem
+>>> v = ephem.Venus()
+>>> v
+<Venus "Venus" at 0x7f916155bb00>
+>>> v.compute('2018/9/22')
+>>> v.earth_distance
+0.41800326108932495
+>>> v.phase
+25.06708335876465
+>>> 
+>>> 
+>>> print(ephem.constellation(ephem.Jupiter('2018/9/22')))
+('Lib', 'Libra')
+>>> 
+>>> print(ephem.Jupiter('2018/9/22').earth_distance)
+5.9447832107543945
+>>> 
+>>> print(ephem.next_equinox('2018'))
+2018/3/20 16:15:17
+>>> print(ephem.next_solstice('2018'))
+2018/6/21 10:07:24
+>>> print(ephem.next_full_moon('2018'))
+2018/1/2 02:24:06
+>>> print(ephem.next_full_moon('2018/9/15'))
+2018/9/25 02:52:25
+>>> 
+
+# ERROR:
+>>> print(ephem.next_full_moon(today))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'today' is not defined
+
+>>> print(ephem.next_new_moon('2018/9/15'))
+2018/10/9 03:46:51
+>>> 
+>>> print(ephem.next_first_quarter_moon('2018/9/15'))
+2018/9/16 23:14:58
+>>> print(ephem.next_last_quarter_moon('2018/9/15'))
+2018/10/2 09:45:24
+>>> 
