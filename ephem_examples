@@ -44,6 +44,13 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 NameError: name 'today' is not defined
 
+# Correção:
+>>> print(ephem.constellation(ephem.Venus(ephem.now())))
+('Vir', 'Virgo')
+>>> print(ephem.Venus(ephem.now()).earth_distance)
+0.41051530838012695
+
+
 >>> print(ephem.next_new_moon('2018/9/15'))
 2018/10/9 03:46:51
 >>> 
