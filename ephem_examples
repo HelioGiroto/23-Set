@@ -60,4 +60,15 @@ NameError: name 'today' is not defined
 2018/10/2 09:45:24
 >>> 
 
+>>> dia=ephem.Date('2018/09/10')
+>>> 
+>>> print(ephem.Venus(dia).earth_distance)
+0.5037811994552612
+>>> dia+=1
+>>> print(ephem.Venus(dia).earth_distance)
+0.4963507652282715
+>>> 
+
+
+
 # http://www.clearskyinstitute.com/xephem/
