@@ -1,5 +1,4 @@
 import ephem			# Instalar este módulo com PIP - Ver: https://pypi.python.org/pypi/ephem/
-import time
 
 planeta = ephem.Venus()		# Objeto (planeta) a ser pesuisado).
 nome = "venus"			# Só para ter nome do arquivo e para efeito de imprimir o nome em pt-br
