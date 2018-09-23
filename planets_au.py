@@ -1,7 +1,7 @@
 import ephem			# Instalar este módulo com PIP - Ver: https://pypi.python.org/pypi/ephem/
 import time
 
-planeta = ephem.Venus()		# Objeto (planeta) a ser pesuisado)
+planeta = ephem.Venus()		# Objeto (planeta) a ser pesuisado).
 nome = "venus"			# Só para ter nome do arquivo e para efeito de imprimir o nome em pt-br
 anos = 40			# qtde de anos que será pesquisado	(40 anos após 1o. Jan de 2000)
 dias = 366			# Quantidade de dias (366 para anos bissextos)
