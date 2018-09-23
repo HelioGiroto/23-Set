@@ -4,6 +4,8 @@
 # FONTE: http://rhodesmill.org/pyephem/quick
 # Ver tb: http://www.astropical.space/astrodb/api-ephem.php?lat=35&lon=139#
 
+# pgm: https://raw.githubusercontent.com/HelioGiroto/23-Set/master/orbitas.py
+
 h@lenovo:~$ python3
 Python 3.5.2 (default, Nov 23 2017, 16:37:01) 
 [GCC 5.4.0 20160609] on linux
